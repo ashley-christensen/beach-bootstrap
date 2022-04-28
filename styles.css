@@ -1,6 +1,56 @@
 body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+.bg-info {
+  background: #17a2b8;
+}
+.icon-nav {
+  color: white;
+}
+/* SLIDER ******************* */
+
+.carousel-item {
+  height: 600px;
+  /* min-height: 350px;
+  background: no-repeat center center scroll;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+}
+.carousel-image-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url('/slide1.jpg');
+  background-size: cover;
+}
+.carousel-image-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url('/slide3.jpg');
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url('/slide2.jpg');
+  background-size: cover;
+}
+
+.title-color {
+  color: #fff;
+}
+.btn-color {
+  background: #17a2b8;
+  color: #fff;
 }
 .bg-c-light {
   margin-top: 0;
@@ -8,7 +58,7 @@ body {
 }
 .icon {
   font-size: 24px;
-  color: rgb(5, 180, 255);
+  color: #17a2b8;
 }
 .items-grid-container {
   margin-bottom: 30px;
@@ -16,7 +66,7 @@ body {
 .underline {
   height: 04px;
   width: 4rem;
-  background-color: rgb(5, 220, 255);
+  background-color: #17a2b8;
   margin-top: 10px;
   margin-bottom: 10px;
 }

@@ -4,37 +4,127 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
     <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/4ea6e3ab0b.js"
       crossorigin="anonymous"
     ></script>
 
     <title>Document</title>
+    
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid text-center bg-info text-white mb-0">
-      <h3 class="font-weight-bold display-6">Beachside Hotel</h3>
-    </div>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info ">
+      <div class="container">
+        <a href="#" class="navbar-brand">Beach Getaway Resort</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item-active">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+             <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+              <li class="nav-item">
+              <a href="#" class="nav-link">Featured</a>
+            </li>
+              <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+               <li class="nav-item">
+              <a href="#" class="nav-link">Reservations</a>
+            </li>
+               <li class="nav-item">
+            <i class="fas icon-nav fa-duotone fa-umbrella-beach fa-2x"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+    <!-- End Nav -->
+   <!-- Slider -->
+   <section id="main">
+     <div id="Carousel" class="carousel slide" data-ride="carousel">
+       <ol class="carousel-indicators">
+<li data-target="#Carousel" data-slide-to="0" class="active"></li>
+<li data-target="#Carousel" data-slide-to="1" ></li>
+<li data-target="#Carousel" data-slide-to="2" ></li>
+       </ol>
+       <div class="carousel-inner">
+         <div class="carousel-item carousel-image-1 active">
+           <div class="container">
+             <div class="carousel-caption d-none d-md-block text-right mb-5">
+               <h1 class="display-3 title-color">Beach Access Stay</h1>
+               <p class="lead">Find your bliss in the ocean</p>
+               <a href="#" class="btn btn-color slide-btn btn-lg">Reserve Your Stay</a>
+             </div>
+           </div>
+         </div>
+<!-- end -->
+         <div class="carousel-item carousel-image-2">
+           <div class="container">
+             <div class="carousel-caption d-none d-sm-block mb-5">
+               <h1 class="display-3 title-color">Luxury Spa Stay</h1>
+               <p class="lead">Delight yourself in luxury suite and spa</p>
+               <a href="#" class="btn btn-color slide-btn btn-lg">More Info</a>
+             </div>
+           </div>
+         </div>
+
+             <div class="carousel-item carousel-image-3">
+           <div class="container">
+             <div class="carousel-caption d-none d-sm-block mb-5">
+               <h1 class="display-3 title-color">Romantic Stay</h1>
+               <p class="lead">Enjoy the romantic weekend getaway provided for honeymoons and more</p>
+               <a href="#" class="btn btn-color slide-btn btn-lg">More Info</a>
+             </div>
+           </div>
+         </div>
+        <a href="#Carousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+         <a href="#Carousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+       </div>
+
+     </div>
+   </section>  
+   <!-- End Slider -->
+
+
 
     <section class="section border-bottom text-center">
       <div class="container py-5">
         <div class="row">
           <div class="col-md-4">
-            <span class="icon"><i class="fa-regular fa-starship-freighter"></i></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa velit similique error, ratione ab iure obcaecati voluptate soluta nemo ipsam recusandae facere laboriosam officia expedita! Harum molestias accusantium aperiam non.</p>
+            <span class="icon">
+              <i class="fas fa-spa fa-2x"></i>
+            </span>
+            <p>State of the art spa with world-renowned body treatments, exfoliation, facials, skincare, and the latest technology for relaxation needs.</p>
           </div>
           <div class="col-md-4">
-            <span><i class="fa-solid fa-ticket-airline"></i></span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed modi quidem, aperiam, quos temporibus unde provident est incidunt dolores neque suscipit saepe commodi perferendis odit perspiciatis quo facere maiores quas.</p>
+             <span class="icon">
+              <i class="fas fa-shower fa-2x"></i>
+            </span>
+            <p>Our resort preserves water and maintains private and ecologically sound options for freshwater. We only use environmentally friendly water options and an in-house filtration system for optimal health and natural preservation.</p>
           </div>
              <div class="col-md-4">
-               <span><i class="fa-solid fa-island-tropical"></i></span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed modi quidem, aperiam, quos temporibus unde provident est incidunt dolores neque suscipit saepe commodi perferendis odit perspiciatis quo facere maiores quas.</p>
+                <span class="icon">
+              <i class="fas fa-person-swimming fa-2x"></i>
+            </span>
+            <p>We maintain all natural saltwater swimming pools. We offer private pools for family-friendly and romantic afternoons and evenings, as well as full service poolside acommodations and staff.</p>
           </div>
         </div>
 
@@ -193,7 +283,7 @@
                   <div class='form-group py-3'>
                     <button
                       type='button'
-                      class='btn btn-primary shadow w-100'
+                      class='btn btn-info shadow w-100'
                     >
                       Send Message
                     </button>
@@ -236,11 +326,15 @@
               <Link to='/about'>About</Link>
             </div>
             <div>
-              <Link to='/contact'>Contact</Link>
+              <Link to='/contact'>Featured</Link>
             </div>
             <div>
-              <Link to='/'>Blog</Link>
+              <Link to='/'>Contact</Link>
             </div>
+             <div>
+              <Link to='/'>Reservations</Link>
+            </div>
+
           </div>
 
           <div class='col-md-4'>
@@ -255,5 +349,12 @@
         </div>
       </div>
     </section>
+
+    <!-- Jquery, Popper js, and Bootstrap js -->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
   </body>
 </html>
