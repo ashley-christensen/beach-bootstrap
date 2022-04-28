@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashley-christensen/test.git"
+    "url": "git+https://github.com/ashley-christensen/beach-bootstrap.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashley-christensen/test/issues"
+    "url": "https://github.com/ashley-christensen/beach-bootstrap/issues"
   },
-  "homepage": "https://github.com/ashley-christensen/test#readme",
+  "homepage": "https://github.com/ashley-christensen/beach-bootstrap#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
