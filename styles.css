@@ -23,11 +23,6 @@ body {
 
 .carousel-item {
   height: 600px;
-  /* min-height: 350px;
-  background: no-repeat center center scroll;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
 }
 .carousel-image-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
@@ -59,6 +54,9 @@ body {
 .icon {
   font-size: 24px;
   color: #17a2b8;
+}
+.icon-main {
+  margin-bottom: 20px;
 }
 .items-grid-container {
   margin-bottom: 30px;
@@ -92,4 +90,24 @@ span {
   letter-spacing: 0px;
   font-size: 11px;
   font-weight: 500;
+}
+
+.underline {
+  margin-bottom: 20px;
+}
+.footer-link {
+  color: #b9e3ea;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #e8f6f8;
+  text-decoration: none;
+}
+.footer-info {
+  color: #b9e3ea;
+}
+
+.footer-contact {
+  color: #b9e3ea;
 }
