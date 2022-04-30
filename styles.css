@@ -111,3 +111,9 @@ span {
 .footer-contact {
   color: #b9e3ea;
 }
+
+/* About */
+
+.about-section {
+  padding: 60px;
+}
