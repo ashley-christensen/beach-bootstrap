@@ -19,6 +19,7 @@ body {
 .icon-nav {
   color: white;
 }
+/* Index.html */
 /* SLIDER ******************* */
 
 .carousel-item {
@@ -110,6 +111,11 @@ span {
 
 .footer-contact {
   color: #b9e3ea;
+}
+
+.copyright {
+  color: #b9e3ea;
+  font-size: 14;
 }
 
 /* About */
