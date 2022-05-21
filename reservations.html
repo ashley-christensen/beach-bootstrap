@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/4ea6e3ab0b.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/4ea6e3ab0b.js" crossorigin="anonymous"></script>
 
     <title>Palmera Resort</title>
   </head>
+
   <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-info">
       <div class="container">
         <a href="/index.html" class="navbar-brand">Palmera Resort and Spa</a>
-        <button
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -55,62 +46,47 @@
         </div>
       </div>
     </nav>
+    <section id="main">
+      <div class="section border-bottom py-5">
+        <div class="container vh">
+          <h3 class="font-weight-bold display-6 text-center">Reservations</h3>
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="mb-1">Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name" />
+                  </div>
+                  <div class="form-group">
+                    <label class="mb-1">Phone Number</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name" />
+                  </div>
+                  <div class="form-group">
+                    <label class="mb-1">Email Address</label>
+                    <input type="text" class="form-control" placeholder="Enter Full Name" />
+                  </div>
 
-    <section class="section border-bottom py-5">
-      <div class="container vh">
-        <h3 class="font-weight-bold display-6 text-center">Reservations</h3>
-        <div class="card shadow">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label class="mb-1">Full Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter Full Name"
-                  />
-                </div>
-                <div class="form-group">
-                  <label class="mb-1">Phone Number</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter Full Name"
-                  />
-                </div>
-                <div class="form-group">
-                  <label class="mb-1">Email Address</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter Full Name"
-                  />
-                </div>
+                  <div class="form-group">
+                    <label class="mb-1">Message</label>
 
-                <div class="form-group">
-                  <label class="mb-1">Message</label>
+                    <textarea rows="3" class="form-control" placeholder="Enter Full Name"></textarea>
+                  </div>
 
-                  <textarea
-                    rows="3"
-                    class="form-control"
-                    placeholder="Enter Full Name"
-                  ></textarea>
+                  <div class="form-group py-3">
+                    <button type="button" class="btn btn-color btn-lg w-100">
+                      Send Reservation Request
+                    </button>
+                  </div>
                 </div>
 
-                <div class="form-group py-3">
-                  <button type="button" class="btn btn-color btn-lg w-100">
-                    Send Reservation Request
-                  </button>
+                <div class="col-md-6 border-start">
+                  <h5 class="main-heading">Contact Information</h5>
+                  <div class="underline"></div>
+                  <p>70 Main Street, Bay Island, Antigua</p>
+                  <p>Phone: +1 268 333 9906</p>
+                  <p>Email: PalmeraResort@info.com</p>
                 </div>
-              </div>
-
-              <div class="col-md-6 border-start">
-                <h5 class="main-heading">Contact Information</h5>
-                <div class="underline"></div>
-                <p>70 Main Street, Bay Island, Antigua</p>
-                <p>Phone: +1 268 333 9906</p>
-                <p>Email: PalmeraResort@info.com</p>
               </div>
             </div>
           </div>
@@ -163,4 +139,5 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
+
 </html>
