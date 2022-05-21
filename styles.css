@@ -7,11 +7,10 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
-	width: 100%;
 }
 
 #main {
-	height: 100vh;
+	min-height: 500px;
 }
 
 .navbar-brand {
