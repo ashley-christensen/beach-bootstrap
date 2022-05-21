@@ -129,10 +129,11 @@ span {
 }
 
 .about-section {
-	padding: 80px;
+	padding: 60px;
 }
+
 .section-info {
-	padding: 80px;
+	/* padding: 60px; */
 	font-size: 14px;
 	line-height: 16px;
 }
