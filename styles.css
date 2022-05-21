@@ -10,7 +10,7 @@ body {
 }
 
 #main {
-	min-height: 500px;
+	min-height: 900px;
 }
 
 .navbar-brand {
@@ -128,6 +128,6 @@ span {
 	font-size: 14;
 }
 
-/* .about-section {
-	padding: 60px;
-} */
+.about-section {
+	padding: 80px;
+}
